@@ -1,0 +1,48 @@
+.nosotros-portada{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    img{
+        width: 100%;
+    }
+}
+.nosotros-titulo{
+    color: $font-color;
+    padding: 30px;}
+    h4{
+        padding: 2rem;
+        font-size: 40px;
+    }
+    p{
+        padding: 10px;
+    }
+.section-nosotros{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    .nosotros-caja1{
+        background-color: rgb(262, 235, 214);
+        color: $font-color;
+    }
+    .nosotros-caja2{
+        background-color: rgb(231, 214, 235);
+        color: $font-color;
+    }
+    .nosotros-caja3{
+        background-color: rgb(242, 133,59);
+        color: $font-color;
+    }
+}
+@media(max-width:750px){
+    .nosotros-portada{
+        background-size: cover; 
+        background-repeat: no-repeat;
+        img{
+            height: 200px;
+        }
+    }
+    h4{
+        font-size: 20px;
+    }
+}
